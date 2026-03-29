@@ -41,35 +41,6 @@ Student-Management-System/
 └── README.md
 
 
-
-# Screenshots
-
- Student Form
-
-- Add student details like Name, Registration No, Course, Year, Contact
-
- Student Table
-
-- Displays all saved records
-- Includes Edit ✏️ and Delete 🗑️ actions
-
-
-
- How to Run
-
-1. Download or clone the repository:
-   
-   git clone https://github.com/your-username/student-management-system.git
-
-2. Open the project folder
-
-3. Run using Live Server (VS Code recommended):
-   
-   - Right click on "index.html"
-   - Click Open with Live Server
-
-
-
 # How It Works
 
 - Data is entered through a form
@@ -87,16 +58,8 @@ Student-Management-System/
 - Toggle switch enables dark theme
 - UI updates instantly
 
-
-
-# Future Improvements
-
-- Search functionality 
-- Sorting and filtering
-- Backend integration (Node.js / Database)
-- Authentication system
-
-
+# Project live link
+https://sowmyavaddiparthy-gif.github.io/Student-Management-System/
 
 # Author
 

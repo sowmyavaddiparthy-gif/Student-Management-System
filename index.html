@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+    <title>Dashboard Panel</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="logo.png" alt="">
+            </div>
+
+            <span class="logo_name">Student Portal</span>
+        </div>
+
+       <div class="menu-items">
+       <ul class="nav-links">
+        <li><a href="#">
+            <i class="uil uil-house-user"></i>
+            <span class="link-name">Dashboard</span>
+        </a></li>
+        <li><a href="students.html">
+            <i class="uil uil-book-reader"></i>
+            <span class="link-name">Students</span>
+        </a></li>
+        
+        <li class="mode">
+            <a href="#">
+          <i class="uil uil-moon"></i>
+            <span class="link-name">Dark Mode</span>
+        </a>
+
+        <div class="mode-toggle">
+        <span class="switch"></span>
+        </div>
+    </li>
+       </ul>
+       </div>
+    </nav>
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            <img src="profile.png" alt="">
+        </div>
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-user"></i>
+                        <span class="text">Total Students</span>
+                        <span class="number">15000</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-users-alt"></i>
+                        <span class="text">Faculty</span>
+                        <span class="number">85</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-chart"></i>
+                        <span class="text">Attendance</span>
+                        <span class="number">92%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Notices">
+                <div class="title">
+                   <i class="uil uil-bell"></i>
+                    <span class="text">Latest Notices</span>
+                </div>
+                <ul>
+                    <li>
+                        <span class="new-badge">NEW</span>
+                        Mid-Term Examinations will commence from 15th April 2026. Students are advised to complete all pending assignments, revise syllabus thoroughly, and check the detailed timetable available in the Exams section. Entry to the exam hall without ID card will not be permitted.</li>
+                    <li>All students must update their personal details, contact information, and emergency contacts in the profile section before 31st March 2026 to avoid issues in academic records and communication.</li>
+                    <li>Fee payment deadline for the current semester is 10th April 2026. Students who fail to clear dues before the deadline may not be allowed to appear for examinations. Please contact administration for any queries.</li>
+                    <li>All students are reminded to carry their ID cards at all times within campus. Security checks will be strictly enforced from next week onwards.</li>
+                    <li>Campus will remain closed on account of upcoming public holiday. Regular classes will resume on the next working day. Stay updated through dashboard notifications.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
